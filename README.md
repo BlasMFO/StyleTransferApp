@@ -24,3 +24,4 @@ Some screenshots of the web app:
 
 * The first time you compose up the services, it could take a few minutes since a DNN model is downloaded and a couple of python libraries are installed.
 * The chace for the processed image can be found in <i style="color:MediumSeaGreen;">./python/static/temp/</i>. In case you want to re-visid the processed images or erase the files.
+* For info about the DNN model, please visit: https://www.tensorflow.org/tutorials/generative/style_transfer 
