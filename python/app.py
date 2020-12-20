@@ -74,7 +74,7 @@ def index():
 	if request.method == 'POST':
 		uploaded_file1 = request.files['file1']
 		uploaded_file2 = request.files['file2']
-		if (uploaded_file1.filename != '') and (uploaded_file2.filename != '') and (uploaded_file1.filename[-3:] in ['jpg', 'png', 'jpeg']) and (uploaded_file2.filename[-3:] in ['jpg', 'png', 'jpeg']):
+		if (uploaded_file1.filename != '') and (uploaded_file2.filename != '') and (uploaded_file1.filename[-3:] in ['jpg', 'png']) and (uploaded_file2.filename[-3:] in ['jpg', 'png']):
 			contentPath = os.path.join(outputDir, generate_filename())
 			stylePath = os.path.join(outputDir, generate_filename())
 			resultPath = os.path.join(outputDir, generate_filename())
