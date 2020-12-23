@@ -1,7 +1,7 @@
 # StyleTransferApp
 
 <p>This app uses deep learning to compose one image using the style of another image.</p>
-<p>This app uses docker to create two microservices, the first is aim to handle a Tensorflow DNN model that makes the style transfer. And, the second microservice is a Flask application that handles the web request and displays the results</p>
+<p>This app uses docker to create two microservices, the first is a Tensorflow/Serving container aim to handle a Tensorflow DNN model that makes the style transfer. And, the second microservice is a Flask application that handles the web request and displays the results.</p>
 
 </br>
 
@@ -12,7 +12,7 @@ Some screenshots of the web app:
 * Open your browser in localhost on port 5000 and you will see this page:
 ![screen_shot01](./screenshots/ScreenShot01.png)
 
-* Select a source and a style image to process. The program will mimic the style image into the source image.
+* Select a source and a style image to process. The program will mimic the style image into the source image:
 ![screen_shot02](./screenshots/ScreenShot02.png)
 
 * See the results and download them if you wish:
